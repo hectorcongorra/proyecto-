@@ -7,7 +7,7 @@ private:
     int vida;
     std::string nombre;
 public:
-   Mascota(){ 
+   mascota(){ 
     this->vida=100;
     }
     void EstablecerNombre(std::string nombre) {
@@ -15,7 +15,7 @@ public:
         this->nombre = nombre;
 
     }
-    ~Mascota() {}
+    ~mascota() {}
     void DecirNombre()
     {
         std::cout<< "Mi nombre es: "<< this->nombre << std::endl;
